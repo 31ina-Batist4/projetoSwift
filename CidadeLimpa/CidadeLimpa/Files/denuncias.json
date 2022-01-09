@@ -1,0 +1,98 @@
+[
+
+    {
+
+        "nome": "Bueiro sem tampa",
+
+        "endereco": "Rua das Flores n° 15, Bairro Jardins, Brasília - DF ",
+
+        "descricao": "Bueiro frente ao Bar do Zé não possui tampa, tem cerca de 2 metros e meio de largura e 2 metros de profundidade.",
+
+        "image": "bueiro"
+
+    },
+
+    {
+        "nome": "Descarte irregular de lixo",
+
+        "endereco": "QNM 26 conjunto K, Ceilândia- DF ",
+
+        "descricao": "Há ao lado da ciclovia o descarte de entulho e lixo doméstico por parte de alguns moradores, até mesmo animais mortos são deixados por esse motivo há muitos roedores na vizinhança e o odor incomoda muito.",
+
+        "image": "lixao"
+
+    },
+
+    {
+
+        "nome": "Buraco na rua",
+
+        "endereco": "QNM 38 conjunto A, Ceilândia- DF ",
+
+        "descricao": "Frente ao armazém Bom Preço tem um buraco de cerca de 1 metro e meio de largura e 30 cm de profundidade, tem causado vários acidentes e prejuízo a motorista.",
+
+        "image": "buraco"
+
+    },
+
+    {
+
+        "nome": "Falta de lixeira",
+
+        "endereco": "EQNM 17/19 Ceilândia- DF",
+
+        "descricao": "Na pracinha da 17/19 não há lixeiras, por ser um lugar bem frequentado para lazer muitos acabam jogando lixo no chão.",
+
+        "image": "pracinha"
+
+    },
+
+    {
+         "nome": "Falta de sinalização",
+
+        "endereco": "Av. Hélio Prates, Ceilândia- DF ",
+
+        "descricao": "Na rotatória sentido centro próximo ao hospital de Ceilândia, não sinalização que determine preferência, é um cruzamento de 2 avenidas de tráfego pesado.",
+
+        "image": "rotatoria"
+    },
+
+    {
+
+        "nome": "Sinalização errada",
+
+        "endereco": "Av. Jardins, Ceilândia- DF ",
+
+        "descricao": "Na avenida Dr. Vladimir em frente ao Cartório há uma placa sinalizando uma lombada,no entanto no lugar há uma faixa de pedestre.",
+
+        "image": "placa"
+
+    },
+
+    {
+
+        "nome": "Rua danificada",
+
+        "endereco": "Av. Otávio Gusmão n° 4, Ceilândia- DF ",
+
+        "descricao": "Houve reparo no sistema de esgoto, no entanto após um mês não foi refeito o asfalto.",
+
+        "image": "rua"
+
+    },
+
+    {
+
+        "nome": "Poste com risco de queda",
+
+        "endereco": "QNM 02 conjunto I, Ceilândia- DF ",
+
+        "descricao": "Carro colidiu com o poste e a estrutura foi muito danificada, os vergalhoes estão expostos e poste corre risco de cair.",
+
+        "image": "poste"
+
+    }
+
+    
+
+]

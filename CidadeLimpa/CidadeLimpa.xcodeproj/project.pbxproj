@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9553B452789D9A500B666E8 /* UIViewController+Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9553B442789D9A500B666E8 /* UIViewController+Context.swift */; };
+		C9698FDB2788E61A00B075E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9698FDA2788E61A00B075E0 /* AppDelegate.swift */; };
+		C9698FDD2788E61A00B075E0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9698FDC2788E61A00B075E0 /* SceneDelegate.swift */; };
+		C9698FDF2788E61A00B075E0 /* DenunciaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9698FDE2788E61A00B075E0 /* DenunciaViewController.swift */; };
+		C9698FE22788E61A00B075E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9698FE02788E61A00B075E0 /* Main.storyboard */; };
+		C9698FE52788E61A00B075E0 /* CidadeLimpa.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C9698FE32788E61A00B075E0 /* CidadeLimpa.xcdatamodeld */; };
+		C9698FE72788E61B00B075E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9698FE62788E61B00B075E0 /* Assets.xcassets */; };
+		C9698FEA2788E61B00B075E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9698FE82788E61B00B075E0 /* LaunchScreen.storyboard */; };
+		C9698FF52788F75000B075E0 /* denuncias.json in Resources */ = {isa = PBXBuildFile; fileRef = C9698FF42788F75000B075E0 /* denuncias.json */; };
+		C99D111E27892D5600C76E94 /* DenunciaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99D111D27892D5600C76E94 /* DenunciaTableViewController.swift */; };
+		C99D112027893D1400C76E94 /* DenunciaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99D111F27893D1400C76E94 /* DenunciaTableViewCell.swift */; };
+		C99D11222789563F00C76E94 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99D11212789563F00C76E94 /* FormViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C9553B442789D9A500B666E8 /* UIViewController+Context.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Context.swift"; sourceTree = "<group>"; };
+		C9698FD72788E61A00B075E0 /* CidadeLimpa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CidadeLimpa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9698FDA2788E61A00B075E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C9698FDC2788E61A00B075E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C9698FDE2788E61A00B075E0 /* DenunciaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DenunciaViewController.swift; sourceTree = "<group>"; };
+		C9698FE12788E61A00B075E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C9698FE42788E61A00B075E0 /* CidadeLimpa.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CidadeLimpa.xcdatamodel; sourceTree = "<group>"; };
+		C9698FE62788E61B00B075E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9698FE92788E61B00B075E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C9698FEB2788E61B00B075E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9698FF42788F75000B075E0 /* denuncias.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = denuncias.json; sourceTree = "<group>"; };
+		C99D111D27892D5600C76E94 /* DenunciaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DenunciaTableViewController.swift; sourceTree = "<group>"; };
+		C99D111F27893D1400C76E94 /* DenunciaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DenunciaTableViewCell.swift; sourceTree = "<group>"; };
+		C99D11212789563F00C76E94 /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9698FD42788E61A00B075E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9698FCE2788E61A00B075E0 = {
+			isa = PBXGroup;
+			children = (
+				C9698FD92788E61A00B075E0 /* CidadeLimpa */,
+				C9698FD82788E61A00B075E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9698FD82788E61A00B075E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9698FD72788E61A00B075E0 /* CidadeLimpa.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9698FD92788E61A00B075E0 /* CidadeLimpa */ = {
+			isa = PBXGroup;
+			children = (
+				C9698FDA2788E61A00B075E0 /* AppDelegate.swift */,
+				C9698FDC2788E61A00B075E0 /* SceneDelegate.swift */,
+				C9698FDE2788E61A00B075E0 /* DenunciaViewController.swift */,
+				C99D111D27892D5600C76E94 /* DenunciaTableViewController.swift */,
+				C99D111F27893D1400C76E94 /* DenunciaTableViewCell.swift */,
+				C99D11212789563F00C76E94 /* FormViewController.swift */,
+				C9553B442789D9A500B666E8 /* UIViewController+Context.swift */,
+				C9698FE02788E61A00B075E0 /* Main.storyboard */,
+				C9698FE82788E61B00B075E0 /* LaunchScreen.storyboard */,
+				C9698FE62788E61B00B075E0 /* Assets.xcassets */,
+				C9698FF12788F62E00B075E0 /* Files */,
+				C9698FEB2788E61B00B075E0 /* Info.plist */,
+				C9698FE32788E61A00B075E0 /* CidadeLimpa.xcdatamodeld */,
+			);
+			path = CidadeLimpa;
+			sourceTree = "<group>";
+		};
+		C9698FF12788F62E00B075E0 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9698FF42788F75000B075E0 /* denuncias.json */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9698FD62788E61A00B075E0 /* CidadeLimpa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9698FEE2788E61B00B075E0 /* Build configuration list for PBXNativeTarget "CidadeLimpa" */;
+			buildPhases = (
+				C9698FD32788E61A00B075E0 /* Sources */,
+				C9698FD42788E61A00B075E0 /* Frameworks */,
+				C9698FD52788E61A00B075E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CidadeLimpa;
+			productName = CidadeLimpa;
+			productReference = C9698FD72788E61A00B075E0 /* CidadeLimpa.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9698FCF2788E61A00B075E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					C9698FD62788E61A00B075E0 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = C9698FD22788E61A00B075E0 /* Build configuration list for PBXProject "CidadeLimpa" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9698FCE2788E61A00B075E0;
+			productRefGroup = C9698FD82788E61A00B075E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9698FD62788E61A00B075E0 /* CidadeLimpa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9698FD52788E61A00B075E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9698FEA2788E61B00B075E0 /* LaunchScreen.storyboard in Resources */,
+				C9698FE72788E61B00B075E0 /* Assets.xcassets in Resources */,
+				C9698FF52788F75000B075E0 /* denuncias.json in Resources */,
+				C9698FE22788E61A00B075E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9698FD32788E61A00B075E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99D112027893D1400C76E94 /* DenunciaTableViewCell.swift in Sources */,
+				C9698FDF2788E61A00B075E0 /* DenunciaViewController.swift in Sources */,
+				C9698FE52788E61A00B075E0 /* CidadeLimpa.xcdatamodeld in Sources */,
+				C99D111E27892D5600C76E94 /* DenunciaTableViewController.swift in Sources */,
+				C9698FDB2788E61A00B075E0 /* AppDelegate.swift in Sources */,
+				C99D11222789563F00C76E94 /* FormViewController.swift in Sources */,
+				C9553B452789D9A500B666E8 /* UIViewController+Context.swift in Sources */,
+				C9698FDD2788E61A00B075E0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C9698FE02788E61A00B075E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9698FE12788E61A00B075E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C9698FE82788E61B00B075E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9698FE92788E61B00B075E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9698FEC2788E61B00B075E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C9698FED2788E61B00B075E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9698FEF2788E61B00B075E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CidadeLimpa/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.edu.unyleya.CidadeLimpa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9698FF02788E61B00B075E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CidadeLimpa/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.edu.unyleya.CidadeLimpa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9698FD22788E61A00B075E0 /* Build configuration list for PBXProject "CidadeLimpa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9698FEC2788E61B00B075E0 /* Debug */,
+				C9698FED2788E61B00B075E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9698FEE2788E61B00B075E0 /* Build configuration list for PBXNativeTarget "CidadeLimpa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9698FEF2788E61B00B075E0 /* Debug */,
+				C9698FF02788E61B00B075E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C9698FE32788E61A00B075E0 /* CidadeLimpa.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C9698FE42788E61A00B075E0 /* CidadeLimpa.xcdatamodel */,
+			);
+			currentVersion = C9698FE42788E61A00B075E0 /* CidadeLimpa.xcdatamodel */;
+			path = CidadeLimpa.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C9698FCF2788E61A00B075E0 /* Project object */;
+}
